@@ -1,0 +1,37 @@
+/* NAV */
+#nav {
+    background-color: #3498db;
+    height: 100px;
+}
+
+#logo {
+    width: 60px;
+    height: auto;
+}
+
+#link {
+    color: white;
+    font-size: 24px;
+}
+
+/* QUEMSOU */
+.quemsou {
+    background-color: #e74c3c; /* Vermelho */
+    height: 600px;
+}
+
+/* FUNCIONAL */
+.funcional {
+    justify-content: center;
+    background-color: #f1c40f; /* Amarelo */
+    color: #34495e; /* Texto azul escuro */
+}
+
+/* AVL */
+#avl {
+    background-color: #3498db; /* Azul claro */
+    height: 600px;
+}
+.cardt{
+    padding: 200px;
+}
