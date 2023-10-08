@@ -70,63 +70,100 @@
 
     <!-- AVALIAÇÕES -->
 
-    <div class="container-fluid" id="avl">
-
-
-        <!-- carrosel -->
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner cardt">
-                <div class="carousel-item active">
-                    <div class="card d-block w-100" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 1</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+    <div class="container-fluid avaliacoes" id="avl">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Avaliações de Clientes</h2>
+                <p>Aqui estão algumas avaliações dos nossos clientes. Valorizamos muito o feedback deles, pois nos ajuda
+                    a
+                    melhorar nossos produtos e serviços.</p>
+            </div>
+            <div class="col-md-6">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner cardt">
+                        <div class="carousel-item active">
+                            <div class="card d-block w-100" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cliente 1</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">"Excelente serviço! Estou muito satisfeito com a qualidade e o
+                                        profissionalismo. Recomendo!"</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card d-block w-100" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cliente 2</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">"Atendimento excepcional! Os produtos são de alta qualidade e o
+                                        suporte foi ótimo. Voltarei com certeza!"</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card d-block w-100" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cliente 3</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">"Fiquei impressionado com a rapidez da entrega e a atenção aos
+                                        detalhes. Empresa altamente confiável."</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card d-block w-100" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 2</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card d-block w-100" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 3</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+        </div>
+    </div>
+
+
+
+    <!-- Entrar em contato -->
+
+    <div class="container-fluid contato">
+
+        <img src="img/operator.png" class="rounded mx-auto d-block operator" alt="...">
+
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="E-mail" aria-label="Email">
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary">Secondary</button>
+            </div>
         </div>
 
-
-
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+
+
+
+
+    <!-- javaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </body>
 

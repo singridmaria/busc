@@ -16,7 +16,7 @@
 
 /* QUEMSOU */
 .quemsou {
-    background-color: #e74c3c; /* Vermelho */
+    background-color: #e74c3c;
     height: 600px;
 }
 
@@ -24,15 +24,37 @@
 .funcional {
     height: 600px;
     justify-content: center;
-    background-color: #f1c40f; /* Amarelo */
-    color: #34495e; /* Texto azul escuro */
+    background-color: #f1c40f;
+    color: #34495e;
 }
 
 /* AVL */
 #avl {
-    background-color: #3498db; /* Azul claro */
+    background-color: #3498db;
     height: 600px;
 }
-.cardt{
-    padding: 200px;
+
+.avaliacoes {
+    padding: 20px;
+    text-align: center;
+    /* Centraliza o texto na horizontal */
+}
+
+
+.cardt {
+    width: 50%;
+    
+    
+}
+
+.contato{
+    background-color: #e74c3c;
+    height: 600px;
+    
+
+}
+
+.operator{
+    width: 300px;
+    padding: 10%;
 }
