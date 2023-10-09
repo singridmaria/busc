@@ -11,27 +11,42 @@
 
 #link {
     color: white;
-    font-size: 24px;
+    font-size: 45px;
 }
 
 /* QUEMSOU */
 .quemsou {
+    padding: 20px;
     background-color: #e74c3c;
     height: 600px;
+    display: flex;
+    justify-content: center;
+    
+}
+#lupa{
+    width: 300px;
+    height: 250px;
+    padding-left: 60px;
+    
 }
 
 /* FUNCIONAL */
 .funcional {
+    padding: 20px;
     height: 600px;
     justify-content: center;
     background-color: #f1c40f;
     color: #34495e;
+    display: flex;
+    justify-content: center;
 }
 
 /* AVL */
 #avl {
     background-color: #3498db;
     height: 600px;
+    display: flex;
+    justify-content: center;
 }
 
 .avaliacoes {
@@ -42,7 +57,8 @@
 
 
 .cardt {
-    width: 50%;
+    
+    
     
     
 }
@@ -50,11 +66,15 @@
 .contato{
     background-color: #e74c3c;
     height: 600px;
+    display: flex;
+    justify-content: center;
     
 
 }
 
 .operator{
     width: 300px;
-    padding: 10%;
+    height: 300px;
+    margin-top: 4%;
+    
 }

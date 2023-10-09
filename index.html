@@ -25,7 +25,7 @@
     <!-- Quem somos? -->
     <div class="container-fluid quemsou">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-12 col-md-6"> <!--col-sm-2 col-md-3 col-lg-1-->
                 <h2>Quem Somos</h2>
                 <p>
                     Somos uma equipe apaixonada comprometida em trazer inovação e soluções para o mundo digital. Nossa
@@ -33,9 +33,9 @@
                     colaborar e inspirar. Juntos, vamos moldar o futuro.
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-12 col-md-6">
                 <h2>Conheça nossa Equipe</h2>
-                <img src="img/search.png" alt="Equipe" class="imagem">
+                <img src="img/search.png" id="lupa" class="imagem">
             </div>
         </div>
     </div>
@@ -139,17 +139,20 @@
 
     <div class="container-fluid contato">
 
-        <img src="img/operator.png" class="rounded mx-auto d-block operator" alt="...">
+        
 
         <div class="row">
-            <div class="col">
+            <div class="col-sm-12">
+                <img src="img/operator.png" class="rounded mx-auto d-block operator" alt="...">
+            </div>
+            <div class="col-sm-5">
                 <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
             </div>
-            <div class="col">
+            <div class="col-sm-5">
                 <input type="text" class="form-control" placeholder="E-mail" aria-label="Email">
             </div>
-            <div class="col">
-                <button type="button" class="btn btn-secondary">Secondary</button>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-secondary">Enviar</button>
             </div>
         </div>
 
