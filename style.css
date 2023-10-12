@@ -21,31 +21,32 @@
     height: 600px;
     display: flex;
     justify-content: center;
-    
+
 }
 
-.quemsouconteudo{
+.quemsouconteudo {
     width: 100%;
-    left: ;
+
     padding: 60px;
 
 }
-#team{
+
+#team {
     width: 300px;
     height: 250px;
     padding-left: 60px;
-    
+
 }
 
 /* FUNCIONAL */
 .funcional {
     padding: 20px;
-    height: 600px;
+    height: 300px;
     justify-content: center;
     background-color: #f1c40f;
     color: #34495e;
     display: flex;
-    
+
 }
 
 /* AVL */
@@ -57,16 +58,16 @@
 }
 
 .avaliacoes {
-    
+
     text-align: center;
-    
+
 }
 
-#avaliaca{
-    
+#avaliaca {
+
     justify-content: center;
-    
-    
+
+
 }
 
 
@@ -74,22 +75,24 @@
     width: 250px;
     height: 250px;
     padding: 0;
-    margin: 30%;   
-    
+    margin: 30%;
+
 }
 
-.contato{
+.contato {
     background-color: #e74c3c;
     height: 600px;
     display: flex;
     justify-content: center;
-    
+
 
 }
 
-.operator{
+.operator {
+    
+    
     width: 300px;
     height: 300px;
-    margin-top: 4%;
-    
+    margin-top: 2%;
+
 }
